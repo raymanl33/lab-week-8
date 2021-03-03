@@ -1,28 +1,17 @@
 * {
     background-color: #6E8783;
     margin: 0;
-
-
-
 }
 
-.grid-container {
-    /* display: grid;
-    grid-template-columns: 1fr;
-    */
-    
-}
+
 
 .sidebar{
     display: grid;
-    grid-auto-rows: 5rem;
-    
+    background-color: #db504a
 }
 
 
 .Navigation{
-    
-    list-style: none;
     display: inline;
     padding-right: 1rem;
 }
@@ -36,6 +25,7 @@ h1 {
 
 .nofloat{
     display:flex;
+    flex-wrap: wrap;
 }
 
 p {
@@ -45,16 +35,14 @@ p {
     color: #edddd0
 }
 
-ul{
-    font-size: 150%;
-    
+nav > ul{
+    font-size: 180%;
+    display: flex;
+    background-color: #334259;
 }
 
-nav {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    background-color: #334259;
+ul{
+    font-size: 180%;
 }
 
 nav a {
@@ -65,7 +53,6 @@ nav a {
 
 
 img {
-   
     max-width: 350px;
     height: auto;
     border-radius: 50%;
